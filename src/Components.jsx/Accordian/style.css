@@ -1,0 +1,51 @@
+.Accordian{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AccordianBody{
+    width: 33vw;
+}
+
+.AccordianBody .question{
+    background-color: #A7C7E7;
+    color: #1F3B4D ;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.AccordianBody .question h4{
+    display: inline;
+    margin: 0;
+    padding: .5rem .25rem .5rem 1rem;
+    font-weight: 500;
+}
+
+.AccordianBody .question i{
+    display: inline;
+    margin: 0;
+    padding: .5rem 1rem .5rem .25rem;
+}
+
+.Answer{
+    margin: 0;
+    padding: .5rem 1rem;
+    background-color: #E3F2FD ;
+    color: #1F3B4D ;
+    font-size: .85rem;
+}
+
+.segment{
+    margin-bottom: 1rem;
+}
+
+.toggleButton{
+    padding: 0.5rem 2rem;
+    background-color: #A7C7E7;
+    color: #1F3B4D;
+    border: #A7C7E7;
+    border-radius: 5px;
+    margin-left: 75%;
+}
